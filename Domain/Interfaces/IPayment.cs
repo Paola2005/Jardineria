@@ -8,6 +8,7 @@ namespace Domain.Interfaces
 {
     public interface IPayment:IGenericRepository<Payment>
     {
-    
+        Task<IEnumerable<object>> Paypal();
+        Task<IEnumerable<object>> GetDistinctPaymentMethods();
     }
 }

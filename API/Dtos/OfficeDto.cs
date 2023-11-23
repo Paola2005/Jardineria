@@ -7,8 +7,10 @@ using Domain.Entities;
 
 namespace API.Dtos
 {
+    
     public class OfficeDto
     {
+        public string Id { get; set; }
     public int PostalCodeId { get; set; }
 
     public string Phone { get; set; }

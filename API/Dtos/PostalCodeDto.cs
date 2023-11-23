@@ -9,6 +9,7 @@ namespace API.Dtos
 {
     public class PostalCodeDto
     {
+        public int Id { get; set; }
 public string PostalCode1 { get; set; }
 
     public int? CityId { get; set; }

@@ -109,7 +109,7 @@ public class UnitOfWork : IUnitOfWork, IDisposable
         {
             if (_order == null)
             {
-                _order = new OrderRepository(_context);
+                _order = new OrdersRepository(_context);
             }
             return _order;
         }

@@ -8,6 +8,6 @@ namespace Domain.Interfaces
 {
     public interface IEmployee:IGenericRepository<Employee>
     {
-    
+    List<object> GetEmployeeHierarchy();
     }
 }

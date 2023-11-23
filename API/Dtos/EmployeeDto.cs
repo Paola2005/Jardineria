@@ -9,6 +9,7 @@ namespace API.Dtos
 {
     public class EmployeeDto
     {
+        public int Id { get; set; }
     public int PersonId { get; set; }
     public string Extention { get; set; }
     public string OfficeCode { get; set; }

@@ -8,6 +8,7 @@ namespace API.Dtos
 {
     public class ClientDto
     {
+        public int Id { get; set; }
 public string ClientName { get; set; }
 
     public int PersonId { get; set; }

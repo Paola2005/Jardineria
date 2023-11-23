@@ -9,6 +9,7 @@ namespace API.Dtos
 {
     public class ProductLineDto
     {
+        public int Id { get; set; }
    public string ProductLine1 { get; set; }
 
     public string DescriptionText { get; set; }

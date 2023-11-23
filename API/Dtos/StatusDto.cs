@@ -8,6 +8,7 @@ namespace API.Dtos
 {
     public class StatusDto
     {
+        public int Id { get; set; }
         public string NameStatus { get; set; }
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();

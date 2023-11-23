@@ -8,6 +8,6 @@ namespace Domain.Interfaces
 {
     public interface IOrder:IGenericRepository<Order>
     {
-    
+        Task<IEnumerable<object>> PedidosEstado();
     }
 }
